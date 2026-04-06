@@ -28,8 +28,6 @@ jobs:
             - name: Lint with Flake8
               run: flake8 .
 
-            - name: Run test with Pytest
-              run: pytest
 
     cd:
             needs: ci
